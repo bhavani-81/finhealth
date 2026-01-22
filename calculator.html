@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FinHealth Scanner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-animation"></div>
+
+<nav class="navbar">
+  <h1 class="logo">FINHEALTH</h1>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="importance.html">Insights</a>
+  </div>
+</nav>
+
+<section class="scanner">
+  <h2 class="glow">Financial Health Scanner</h2>
+
+  <div class="card">
+    <label>Emergency Fund (Months)</label>
+    <input type="number" id="emergency">
+
+    <label>Monthly Income</label>
+    <input type="number" id="income">
+
+    <label>Monthly Debt</label>
+    <input type="number" id="debt">
+
+    <label>Savings Rate (%)</label>
+    <input type="number" id="savings">
+
+    <label>Credit Score</label>
+    <input type="number" id="credit">
+
+    <label>Do you track expenses?</label>
+    <select id="track">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+
+    <button class="btn-neon" onclick="calculate()">Analyze</button>
+  </div>
+
+  <div class="result-box">
+    <h3 id="score"></h3>
+    <p id="message"></p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
