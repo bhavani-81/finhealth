@@ -2,119 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>FinHealth | Neural Financial Diagnostics</title>
+  <title>FinHealth – Financial Calculators</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<div id="parallax-bg">
-  <div class="layer layer-stars"></div>
-  <div class="layer layer-grid"></div>
-  <div class="layer layer-glow"></div>
-  <canvas id="particle-canvas"></canvas>
-</div>
-
+<!-- Header -->
 <nav class="navbar">
-  <h1 class="logo">FINHEALTH</h1>
-  <div class="nav-links">
-    <a href="index.html">Diagnostics</a>
-    <a href="calculator.html">Scanner</a>
-    <a href="importance.html">Vault</a>
-  </div>
+  <h1 class="logo">FinHealth</h1>
 </nav>
 
-<section class="hero">
-  <div class="system-status"><span></span> SYSTEM ONLINE: NEURAL ENGINE v2.6</div>
-  <h2 class="glow">Financial Intelligence OS</h2>
-  <p class="hero-text">
-    A next-generation analytical engine evaluating fiscal stability 
-    through multi-layered neural diagnostics and resilience modeling.
-  </p>
-  <a href="calculator.html" class="btn-neon">Initialize System Scan</a>
-</section>
+<!-- Main Content -->
+<main class="content">
 
-<section class="content">
-
-  <div class="terminal-window">
-    <h3 class="glow">Core Protocol: FinHealth Score</h3>
-    <p class="intro">
-      The <strong>FinHealth Protocol</strong> is a data-driven metric that evaluates the 
-      <em>structural integrity</em> of your financial life.
-    </p>
+  <section class="page-header">
+    <h2>Financial Calculators</h2>
     <p>
-      Unlike legacy credit scores, FinHealth provides a <strong>360-degree diagnostic</strong> 
-      of how effectively your ecosystem earns, shields, and amplifies capital.
+      Practical tools to plan investments, loans, taxes, and life goals.
     </p>
-  </div>
+  </section>
 
-  <hr class="neon-divider">
+  <!-- Calculator Grid -->
+  <section class="calculator-grid">
 
-  <h4 class="section-title">Diagnostic Pillars</h4>
-  
-  <div class="pillar-grid">
-    <div class="pillar-card">
-      <div class="pillar-icon">01</div>
-      <h5>Cash Flow Velocity</h5>
-      <p>Monitoring the frequency and reliability of income streams vs. expenditure burn rates.</p>
-      <div class="chart-placeholder">STATUS: STABLE</div>
-    </div>
+    <a href="calculators/sip.html" class="calc-card">
+      <h3>SIP Calculator</h3>
+      <p>Estimate returns from systematic investment plans</p>
+    </a>
 
-    <div class="pillar-card">
-      <div class="pillar-icon">02</div>
-      <h5>Elasticity & Reserves</h5>
-      <p>Measuring the depth of your emergency buffer and the liquidity of your asset base.</p>
-      <div class="chart-placeholder">STATUS: OPTIMIZED</div>
-    </div>
+    <a href="calculators/lumpsum.html" class="calc-card">
+      <h3>Lumpsum Calculator</h3>
+      <p>Calculate future value of one-time investments</p>
+    </a>
 
-    <div class="pillar-card">
-      <div class="pillar-icon">03</div>
-      <h5>Leverage Exposure</h5>
-      <p>Analyzing debt-to-income architecture and the interest-burden on future growth.</p>
-      <div class="chart-placeholder">STATUS: ANALYSIS REQUIRED</div>
-    </div>
-  </div>
+    <a href="calculators/retirement.html" class="calc-card">
+      <h3>Retirement Calculator</h3>
+      <p>Plan savings required for retirement</p>
+    </a>
 
-  
+    <a href="calculators/insurance.html" class="calc-card">
+      <h3>Insurance Calculator</h3>
+      <p>Estimate required life insurance coverage</p>
+    </a>
 
-  <hr class="neon-divider">
+    <a href="calculators/tax.html" class="calc-card">
+      <h3>Tax Calculator</h3>
+      <p>Compute tax liability and potential savings</p>
+    </a>
 
-  <h4 class="section-title">System Comparison</h4>
-  <div class="table-container">
-    <table class="comparison-table">
-      <thead>
-        <tr>
-          <th>Metric</th>
-          <th>FinHealth (OS)</th>
-          <th>Legacy Credit</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Ecosystem Scope</td>
-          <td>360° Assessment</td>
-          <td>Debt History Only</td>
-        </tr>
-        <tr>
-          <td>Reserve Analysis</td>
-          <td>Integrated</td>
-          <td>Ignored</td>
-        </tr>
-        <tr>
-          <td>Resilience Factor</td>
-          <td>Predictive</td>
-          <td>Not Measured</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <a href="calculators/home-loan.html" class="calc-card">
+      <h3>Home Loan Calculator</h3>
+      <p>Analyze EMI, tenure, and affordability</p>
+    </a>
 
-</section>
+    <a href="calculators/car.html" class="calc-card">
+      <h3>Car Loan Calculator</h3>
+      <p>Plan car purchase and EMI structure</p>
+    </a>
 
+    <a href="calculators/education.html" class="calc-card">
+      <h3>Education Planning</h3>
+      <p>Estimate future education expenses</p>
+    </a>
+
+    <a href="calculators/marriage.html" class="calc-card">
+      <h3>Marriage Planning</h3>
+      <p>Plan wedding expenses and savings</p>
+    </a>
+
+  </section>
+
+</main>
+
+<!-- Footer -->
 <footer>
-  <p>© 2026 FinHealth Systems | Neural Financial Intelligence</p>
+  <p>© 2026 FinHealth Systems</p>
 </footer>
 
-<script src="js/background.js"></script>
 </body>
 </html>
